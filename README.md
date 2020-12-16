@@ -14,3 +14,8 @@
 2. L is defined as L: c -> retrieved_data for the period of time [c-1, c]
 3. Then U, the updator implemented as AWS Lambda, updates the L(c) to the Database D.
 
+
+### Detailed Steps:
+
+#### Data Availability
+1. create a Labmda that fetches bulk-data-availibity and saves the data into S3
